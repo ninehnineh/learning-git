@@ -2,27 +2,27 @@
 
 ## This repo was used to learn git: 
 
-ctrl + l: to clear screen
+- ctrl + l: to clear screen
 
-git config --global user.name "your name in github" (1)
-git config --global user.email "email used to register github" (2)
+- git config --global user.name "your name in github" (1)
+- git config --global user.email "email used to register github" (2)
 
-git config [<options>]: to see all options
-git config -l: to see all infomation (1,2) and click Q to exit command
-git config --edit: to edit 1,2
+- git config [<options>]: to see all options
+- git config -l: to see all infomation (1,2) and click Q to exit command
+- git config --edit: to edit 1,2
 
 =======================================================================================
 	
-git repository contain a collection of files of various different versions of a project
-mkdir learning-git
-ls
-cd learning-git
-ls
-git init: make a brand project become git repo
-rm -rf .git: to remove .git in working dir
-after above line, we cant git add cause working dir is no longer a git repo
-git init
-git add: in working dir, we have nothing here, so "nothing added", and git bash recomment to "git add ."
+- git repository contain a collection of files of various different versions of a project
+- mkdir learning-git
+- ls
+- cd learning-git
+- ls
+- git init: make a brand project become git repo
+- rm -rf .git: to remove .git in working dir
+- after above line, we cant git add cause working dir is no longer a git repo
+- git init
+- git add: in working dir, we have nothing here, so "nothing added", and git bash recomment to "git add ."
 	
 =======================================================================================
 	
