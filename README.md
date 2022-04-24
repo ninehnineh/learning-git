@@ -3,7 +3,9 @@
 ## This repo was used to learn git: 
 
 - ctrl + l: to clear screen
-
+- 
+============================ git config ===============================
+		
 - git config --global user.name "your name in github" (1)
 - git config --global user.email "email used to register github" (2)
 
@@ -11,7 +13,7 @@
 - git config -l: to see all infomation (1,2) and click Q to exit command
 - git config --edit: to edit 1,2
 
-=======================================================================================
+============================ git init, git add ===============================
 	
 - git repository contain a collection of files of various different versions of a project
 - mkdir learning-git
@@ -24,7 +26,7 @@
 - git init
 - git add: in working dir, we have nothing here, so "nothing added", and git bash recomment to "git add ."
 	
-=======================================================================================
+============================ git status ===============================
 	
 create file: 
 - touch index.html
@@ -56,9 +58,9 @@ create file:
 	- so we now at a test folder
 	- git add . : we just add all file in test folder
 	- git status: to check untracked files, we see 3 file outside of test folder do not add to stage area
-- git add -A: whatever we are at spectifi folder, all file will be add to stage area
+- git add -A: whatever we are at spectific folder, all files will be add to stage area
 	
-=======================================================================================
+============================ git log, git commit, git commit amend ===============================
 	
 - vi main.css: open a file main.css 
 - click i to insert code into main.css
@@ -67,12 +69,12 @@ create file:
 - git log: to see a committed history
 - git commit --amend -m "added body{} in main.css": change the latest commit message
 	
-=======================================================================================
+============================ git pull ===============================
 	
 - git pull: get latest changes from remote if local repo != remote repo
 - cat main.go: to see code inside of main.go
 	
-=======================================================================================
+============================ branch, git checkout ===============================
 	
 - a branch represents an independent line of development
 - git branch: to check list branch in local
