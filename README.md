@@ -13,7 +13,7 @@
 - git config -l: to see all infomation (1,2) and click Q to exit command
 - git config --edit: to edit 1,2
 
-============================ git init, git add ===============================
+============================ git init, git add, mkdir <name-dir> ===============================
 	
 - git repository contain a collection of files of various different versions of a project
 - mkdir learning-git
@@ -26,7 +26,7 @@
 - git init
 - git add: in working dir, we have nothing here, so "nothing added", and git bash recomment to "git add ."
 	
-============================ git status ===============================
+============================ touch, git status, ls ===============================
 	
 create file: 
 - touch index.html
@@ -53,14 +53,13 @@ create file:
 
 - create folder:
 	- mkdir test
-
 - cd test: 
 	- so we now at a test folder
 	- git add . : we just add all file in test folder
 	- git status: to check untracked files, we see 3 file outside of test folder do not add to stage area
 - git add -A: whatever we are at spectific folder, all files will be add to stage area
 	
-============================ git log, git commit, git commit amend ===============================
+============================ git log, git commit, git commit amend, vi <name-file> ===============================
 	
 - vi main.css: open a file main.css 
 - click i to insert code into main.css
@@ -69,7 +68,7 @@ create file:
 - git log: to see a committed history
 - git commit --amend -m "added body{} in main.css": change the latest commit message
 	
-============================ git pull ===============================
+============================ git pull, cat <name-file> ===============================
 	
 - git pull: get latest changes from remote if local repo != remote repo
 - cat main.go: to see code inside of main.go
