@@ -3,6 +3,7 @@
 ## This repo was used to learn git: 
 
 - ctrl + l: to clear screen
+- 
 ============================ git config ===============================
 		
 - git config --global user.name "your name in github" (1)
