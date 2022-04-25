@@ -59,7 +59,7 @@ create file:
 	- git status: to check untracked files, we see 3 file outside of test folder do not add to stage area
 - git add -A: whatever we are at spectific folder, all files will be add to stage area
 	
-============================ git log, git commit, git commit amend, vi <name-file> ===============================
+================== git log, git commit, git commit amend, vi <name-file> =========================
 	
 - vi main.css: open a file main.css 
 - click i to insert code into main.css
