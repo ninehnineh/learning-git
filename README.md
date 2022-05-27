@@ -117,9 +117,15 @@ git rebase --continue
 keep loop case 1 until the resolve all conflict and push local to remote
 syntax push when push after rebase: git push -f (--force), use this because recent branch do not aware
 and then comeback to github -> compare (to see changes) , pull requests
+	
 =====================================squash (nén các commit thành 1)==========================
+	
 =============================git clients========================================
+	
 ======================gitpod (vs code in browser)====================================
+	
 is a coding dev enviroment for github, gitlab, .... (Docker>?)
+	
 ================================Building a Portfolio (README.md)============================
+	
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
