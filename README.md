@@ -89,3 +89,33 @@ create file:
 
 - git checkout -b to-delete: create a to-delete branch and switched to it
 - git checkout -d to-delete: to delete a branch named to-delete
+================================git rebase=============================================
+workflow
+pull relative changes form master/main to local repo/machine 
+create new brach, git checkout -b [name branch], start working with feature, a bunch of commits
+advise: rebase
+if take to long to finish your feature, and master/main was move on
+how to bring latest changes form master into local repo, use rebase, maybe or not conflict,
+not conflict, it's wonderful, but if conflict, we gonna fix it
+move(stash) commits your branch and bring latest changes in main into local repo, bring commits back
+=> conflict solved
+wanna push changes to remote, discuss with your peer, if changes are approved, merge commits
+=======================================================================================
+while local repo != remote repo, (cause by when feature-xyz is doing something, and remote repo at the 
+same time, source code just keep move on)
+rebase
+get latest changes form main/master branch then add our changes on top of it
+syntax: git pull -r (--rebase) origin main 
+conflict/not
+case 1: conflict
+git add .
+git rebase --continue
+keep loop case 1 until the resolve all conflict and push local to remote
+syntax push when push after rebase: git push -f (--force), use this because recent branch do not aware
+and then comeback to github -> compare (to see changes) , pull requests
+=====================================squash (nén các commit thành 1)==========================
+=============================git clients========================================
+======================gitpod (vs code in browser)====================================
+is a coding dev enviroment for github, gitlab, .... (Docker>?)
+================================Building a Portfolio (README.md)============================
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
