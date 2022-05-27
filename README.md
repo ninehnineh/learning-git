@@ -89,7 +89,7 @@ create file:
 
 - git checkout -b to-delete: create a to-delete branch and switched to it
 - git checkout -d to-delete: to delete a branch named to-delete
-================================git rebase=============================================
+====================git rebase===============
 workflow
 pull relative changes form master/main to local repo/machine 
 create new brach, git checkout -b [name branch], start working with feature, a bunch of commits
@@ -100,7 +100,7 @@ not conflict, it's wonderful, but if conflict, we gonna fix it
 move(stash) commits your branch and bring latest changes in main into local repo, bring commits back
 => conflict solved
 wanna push changes to remote, discuss with your peer, if changes are approved, merge commits
-=======================================================================================
+====================================================
 while local repo != remote repo, (cause by when feature-xyz is doing something, and remote repo at the 
 same time, source code just keep move on)
 rebase
